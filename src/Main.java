@@ -9,6 +9,10 @@ public class Main {
         float myFloat = 12312312.123F;
         double myDouble = 12312312312.1231231;
         String myString = "akjsd sdkaskd 123123 $#";
+        System.out.println(myByte+myInt);
+
+        double result = myFloat+myDouble;
+        System.out.println(result);
 
         int x = 3;
         x++;
