@@ -32,5 +32,9 @@ public class Main {
 
         String text = "rezultatul este: ";
         System.out.println(text + (2 + 3));
+        System.out.println(text + (2 + 3));
+        System.out.println(text + (2 + 3));
+        System.out.println(text + (2 + 3));
+        System.out.println(text + (2 + 3));
     }
 }
