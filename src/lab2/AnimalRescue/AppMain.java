@@ -9,5 +9,6 @@ public class AppMain {
         rex.eat(1);
         System.out.println(rex.weight);
 
+        Girl anna = new Girl();
     }
 }
