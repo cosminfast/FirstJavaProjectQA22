@@ -11,7 +11,8 @@ public class Main {
         String myString = "akjsd sdkaskd 123123 $#";
         System.out.println(myByte+myInt);
 
-        double result = myFloat+myDouble;
+        double result = 5+6;
+        double result2 = 5+6;
         System.out.println(result);
 
         int x = 3;
