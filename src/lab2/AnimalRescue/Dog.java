@@ -2,7 +2,7 @@ package lab2.AnimalRescue;
 
 public class Dog {
 
-    String name = "Rex";
+    static String name = "Rex";
     String breed = "Labrador";
     int age = 3;
     String color = "yellow/brown";

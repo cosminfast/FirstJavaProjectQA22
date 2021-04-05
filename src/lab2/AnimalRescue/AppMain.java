@@ -7,8 +7,12 @@ public class AppMain {
         System.out.println(rex.breed);
         System.out.println(rex.weight);
         rex.eat(1);
+        rex.name = "Rock";
         System.out.println(rex.weight);
 
-        Girl anna = new Girl();
+        Dog rex2 = new Dog();
+        rex2.name = "asd";
+        System.out.println(rex2.name);
+        Girl girl1 = new Girl();
     }
 }
