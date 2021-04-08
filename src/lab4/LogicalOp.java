@@ -21,4 +21,17 @@ public class LogicalOp {
         }
         return sum / count;
     }
+
+    public void printEvenNumberInterval(int start, int finish){
+        lab3.LogicalOp op = new lab3.LogicalOp();
+        int small = op.getLowerNumber(start,finish);
+        int bigger = op.getHigherNumber(start,finish);
+
+        while(small <= bigger){
+            if (small % 2 == 0){
+                System.out.println(small);
+            }
+            small++;
+        }
+    }
 }

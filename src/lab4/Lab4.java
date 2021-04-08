@@ -15,7 +15,12 @@ public class Lab4 {
 
 //        2,8,12,89,12,109901,2
 
-        System.out.println(op.getAverageFromInterval(100, 10));
+//        System.out.println(op.getAverageFromInterval(100, 10));
+
+        // display even numbers in interval
+
+        op.printEvenNumberInterval(90,100);
+
     }
 
 }

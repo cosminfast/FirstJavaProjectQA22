@@ -1,4 +1,4 @@
-package AnimalRescue;
+package animalRescue;
 
 public class Girl {
 
