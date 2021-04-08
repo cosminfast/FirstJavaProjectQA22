@@ -14,7 +14,6 @@ public class Main {
 
 //        C = 5/9 * (F -32)
         System.out.println("Celsius value is: " + getCelsius(100));
-
     }
 
     public static int sum(int first, int second) {

@@ -2,20 +2,23 @@ package lab3;
 
 public class LogicalOp {
 
-    public int getHigherNumber(int first, int second, int third) {
+    public int getHigherNumber(int first, int second) {
         //        Given two numbers, see which one
 //        is the greatest and print it
-
-
-        if (first > second && first > third) {
+        if (first > second) {
             return first;
-        } else if (second > first && second > third) {
-            return second;
         } else {
-            return third;
+            return second;
         }
     }
 
+    public int getLowerNumber(int first, int second) {
+        if (first < second) {
+            return first;
+        } else {
+            return second;
+        }
+    }
     public String checkNumberAndText(String text, int number){
         //Given a text input and a number input,
         // if the text is equal to “FastTrack”
@@ -33,6 +36,20 @@ public class LogicalOp {
 
 
         return "";
+    }
+
+    public String displayNumber(int number){
+        switch (number){
+            case 1:
+               return ("The number is 1!");
+            case 2:
+                return ("The number is 2!");
+
+            default:
+                return ("The entered number " +
+                        "is not in the interval!");
+        }
+
     }
 
 }
