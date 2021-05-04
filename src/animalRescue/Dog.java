@@ -11,4 +11,8 @@ public class Dog extends Animal {
     public void setFur(String fur) {
         this.fur = fur;
     }
+
+    public void sleep() {
+        System.out.println("zzz");
+    }
 }

@@ -1,6 +1,6 @@
 package animalRescue;
 
-public class Animal {
+public abstract class Animal {
     private String name;
     private int age;
     private String color;
@@ -72,7 +72,6 @@ public class Animal {
         System.out.println("running");
     }
 
-    public void sleep(){
-        System.out.println("zzzz");
-    }
+    public abstract void sleep();
+
 }

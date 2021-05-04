@@ -17,4 +17,9 @@ public class Cat extends Animal {
     public void purr(){
         System.out.println("Purring");
     }
+
+    @Override
+    public void sleep() {
+
+    }
 }
